@@ -1,6 +1,6 @@
 {
   "name": "@kumatest/kumaslib",
-  "version": "0.1.15",
+  "version": "0.1.0",
   "private": false,
   "publishConfig": {
     "access": "public"
