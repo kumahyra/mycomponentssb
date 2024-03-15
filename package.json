@@ -58,5 +58,8 @@
     "prop-types": "^15.8.1",
     "storybook": "^8.0.0",
     "webpack": "^5.90.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
