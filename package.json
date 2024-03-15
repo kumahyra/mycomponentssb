@@ -1,6 +1,10 @@
 {
   "name": "@kumatest/kumaslib",
   "version": "0.1.13",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,7 +26,7 @@
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy": "npm version patch && npm publish --access=public"
+    "deploy": "npm version patch && npm publish"
   },
   "eslintConfig": {
     "extends": [
